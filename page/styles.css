@@ -1,0 +1,164 @@
+body {
+    width: 100%;
+    margin: 0;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+}
+
+#navbar {
+    width: 100%;
+    height: 50px;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-item {
+    padding: 10px;
+}
+
+#words {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 15px;
+}
+
+#user-img {
+    margin-right: 15px;
+    border: 0;
+    border-radius: 50%;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+
+#total-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+#search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    padding: 5px;
+    width: auto;
+    max-width: 584px;
+    border-radius: 24px;
+    height: 34px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#search-bar:hover {
+    box-shadow: 0 0 5px #dfe1e5;
+}
+
+#search-icon {
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#mic-icon {
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#search-input {
+    border: 0;
+    width: 400px;
+    height: 24px;
+    font-size: 15px;
+}
+
+#search-input:focus {
+    outline-width: 0;
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.buttons {
+    padding: 10px;
+    border: 0;
+}
+
+input.buttons:first-of-type {
+    margin-right: 15px;
+}
+
+input.buttons:last-of-type{
+    margin-left: 15px;
+}
+
+.below-button {
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.below-button a {
+    text-decoration: none;
+}
+
+#footer {
+    width: 100%;
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding-top: clamp(30px, auto, auto);
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#footer-country {
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+a.footer-text {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media (max-height: 490px) {
+    footer {
+        visibility: hidden;
+    }
+}
