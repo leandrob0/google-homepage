@@ -146,19 +146,26 @@ input.buttons:last-of-type{
     margin-left: 15px;
 }
 
+hr {
+    margin: 0;
+}
+
 #about {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-container {
+    margin: 5px 0 5px 0;
 }
 
 a.footer-text {
     text-decoration: none;
     color: rgba(0,0,0,.54);
     padding: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 @media (max-height: 490px) {
